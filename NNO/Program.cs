@@ -12,7 +12,7 @@ namespace NNO {
 
             Console.ReadLine();
 
-
+            //(DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1525))(CONNECT_DATA = (SERVICE_NAME = ORAC))); User Id = SYSTEM; Password = mapo9sungsan;
         }
     }
 }
