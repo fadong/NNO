@@ -8,6 +8,7 @@ namespace NNO {
     class Program {
         static void Main(string[] args) {
             Console.WriteLine("a");
+            Console.WriteLine("a");
 
         }
     }
