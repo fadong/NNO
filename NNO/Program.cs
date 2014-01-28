@@ -8,8 +8,9 @@ using System.Threading;
 namespace NNO {
     class Program {
         static void Main(string[] args) {
-            
 
+
+            Console.ReadLine();
 
 
         }
