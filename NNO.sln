@@ -5,6 +5,28 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NNO", "NNO\NNO.csproj", "{8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFClient", "WFClient\WFClient.csproj", "{5CBF9C9F-0957-452F-8258-5620D2BFD8A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonInterface", "CommonInterface\CommonInterface.csproj", "{0EE32898-6E77-4466-9907-8BC68BF87B50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{47E8F959-575D-4367-B176-C479489A1792}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\Bloomberglp.Blpapi.dll = Lib\Bloomberglp.Blpapi.dll
+		Lib\C1DllReferenceCheck.exe = Lib\C1DllReferenceCheck.exe
+		Lib\CookComputing.XmlRpcV2.dll = Lib\CookComputing.XmlRpcV2.dll
+		Lib\DocumentFormat.OpenXml.dll = Lib\DocumentFormat.OpenXml.dll
+		Lib\LinqToExcel.dll = Lib\LinqToExcel.dll
+		Lib\log4net.dll = Lib\log4net.dll
+		Lib\Oracle.DataAccess.dll = Lib\Oracle.DataAccess.dll
+		Lib\Oracle.Web.dll = Lib\Oracle.Web.dll
+		Lib\Remotion.Data.Linq.dll = Lib\Remotion.Data.Linq.dll
+		Lib\Serialize.Linq.dll = Lib\Serialize.Linq.dll
+		Lib\Sybase.AdoNet4.AseClient.dll = Lib\Sybase.AdoNet4.AseClient.dll
+		Lib\Sybase.Data.AseClient.dll = Lib\Sybase.Data.AseClient.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLib", "CommonLib\CommonLib.csproj", "{B30F24DF-EF67-472C-A5BA-6C3F7684E7DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCaches", "MCaches\MCaches.csproj", "{731B29CB-7870-43AB-90D7-A52CACA6BF19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +41,18 @@ Global
 		{5CBF9C9F-0957-452F-8258-5620D2BFD8A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CBF9C9F-0957-452F-8258-5620D2BFD8A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CBF9C9F-0957-452F-8258-5620D2BFD8A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EE32898-6E77-4466-9907-8BC68BF87B50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EE32898-6E77-4466-9907-8BC68BF87B50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EE32898-6E77-4466-9907-8BC68BF87B50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EE32898-6E77-4466-9907-8BC68BF87B50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B30F24DF-EF67-472C-A5BA-6C3F7684E7DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B30F24DF-EF67-472C-A5BA-6C3F7684E7DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B30F24DF-EF67-472C-A5BA-6C3F7684E7DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B30F24DF-EF67-472C-A5BA-6C3F7684E7DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{731B29CB-7870-43AB-90D7-A52CACA6BF19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{731B29CB-7870-43AB-90D7-A52CACA6BF19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{731B29CB-7870-43AB-90D7-A52CACA6BF19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{731B29CB-7870-43AB-90D7-A52CACA6BF19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
