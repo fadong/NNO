@@ -71,16 +71,24 @@ namespace NNO {
         /// <param name="sender"></param>
         /// <param name="e">Event Argument</param>
         void Channel_Faulted(object sender, EventArgs e) {
-            throw new NotImplementedException();
+            
         }
         #endregion
 
+        #region "void UnRegisterCallback(IClientChannel client, bool closedGracefully)"
+        /// <summary>
+        /// Client Disconnetion
+        /// </summary>
+        /// <param name="client"></param>
+        /// <param name="closedGracefully"></param>
         void UnRegisterCallback(IClientChannel client, bool closedGracefully) {
+            try {
 
-
-
-
+            } catch (Exception) {
+                throw;
+            }
         }
+        #endregion
 
         public static Dictionary<IClientServiceCallback, ClientInfo> CLIENTS = new Dictionary<IClientServiceCallback, ClientInfo>();
     }

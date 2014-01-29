@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MCaches {
+namespace GridCalculator {
     class Program {
         static void Main(string[] args) {
-
-            OraDBConn conn = OraDBConn.BE;
-            Console.ReadLine();
-
         }
     }
 }

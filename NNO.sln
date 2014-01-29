@@ -29,6 +29,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCaches", "MCaches\MCaches.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientLib", "ClientLib\ClientLib.csproj", "{D7FD4DB1-55C4-4DD4-B048-E5E990EC2BF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NNOXmlFactory", "NNOXmlFactory\NNOXmlFactory.csproj", "{E2486E10-C950-46CB-BC88-4E20DE520F1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridCalculator", "GridCalculator\GridCalculator.csproj", "{00CD64DE-1AA1-4653-9228-2B6A42844A5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter4Server", "Adapter4Server\Adapter4Server.csproj", "{15843821-5C55-4DFD-915A-6E5A7E8270BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,12 +65,24 @@ Global
 		{D7FD4DB1-55C4-4DD4-B048-E5E990EC2BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7FD4DB1-55C4-4DD4-B048-E5E990EC2BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7FD4DB1-55C4-4DD4-B048-E5E990EC2BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2486E10-C950-46CB-BC88-4E20DE520F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2486E10-C950-46CB-BC88-4E20DE520F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2486E10-C950-46CB-BC88-4E20DE520F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2486E10-C950-46CB-BC88-4E20DE520F1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00CD64DE-1AA1-4653-9228-2B6A42844A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00CD64DE-1AA1-4653-9228-2B6A42844A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00CD64DE-1AA1-4653-9228-2B6A42844A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00CD64DE-1AA1-4653-9228-2B6A42844A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15843821-5C55-4DFD-915A-6E5A7E8270BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15843821-5C55-4DFD-915A-6E5A7E8270BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15843821-5C55-4DFD-915A-6E5A7E8270BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15843821-5C55-4DFD-915A-6E5A7E8270BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		EnterpriseLibraryConfigurationToolBinariesPath = packages\EnterpriseLibrary.Caching.5.0.505.0\lib\NET35
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.ExceptionHandling.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Validation.6.0.1304.0\lib\NET45
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\EnterpriseLibrary.Caching.5.0.505.0\lib\NET35
 	EndGlobalSection
 EndGlobal

@@ -63,7 +63,10 @@
   <ItemGroup>
     <Compile Include="DataContract.cs" />
     <Compile Include="IClientService.cs" />
+    <Compile Include="ICommonLib.cs" />
+    <Compile Include="MasterConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SystemInfoScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
