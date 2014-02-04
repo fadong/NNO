@@ -13,8 +13,7 @@ using CommonLib;
 namespace NNO {
     [ServiceBehavior(ConcurrencyMode=ConcurrencyMode.Reentrant,
         InstanceContextMode=InstanceContextMode.PerSession,
-        IncludeExceptionDetailInFaults=true,
-        TransactionAutoCompleteOnSessionClose=true)]
+        IncludeExceptionDetailInFaults=true)]
     public class ClientService {
 
         #region "public IList<Claim> ConnectService(ClientInfo ci)"
@@ -90,6 +89,29 @@ namespace NNO {
         }
         #endregion
 
+        /// <summary>
+        /// ClientServiceHost Open Operation
+        /// </summary>
+        public void OpenClientServiceHost() {
+            try {
+                this._servicestatus = false;
+                this._sh = new ServiceHost(typeof(ClientService));
+                this._sh.Faulted += new EventHandler(Channel_Faulted);
+                this._sh.Open();
+                CLogger.LogTrace("Service Opened");
+                foreach (var address in this._sh.BaseAddresses) {
+                    this._port = address.Port;
+                    this._uri = address.AbsoluteUri;
+                }
+            } catch (Exception) {
+                throw;
+            }
+        }
+
         public static Dictionary<IClientServiceCallback, ClientInfo> CLIENTS = new Dictionary<IClientServiceCallback, ClientInfo>();
+        bool _servicestatus = false;
+        ServiceHost _sh;
+        int _port = 0;
+        string _uri = string.Empty;
     }
 }
