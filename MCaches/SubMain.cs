@@ -21,6 +21,7 @@ namespace MCaches {
             ObjectCache cache = MemoryCache.Default;
             if (cache.Contains("CachedValue")) {
                 var value = cache.Get("CachedValue");
+                Console.WriteLine("afa");
             } 
             else {
                 cache.Add("CachedValue", "SomeValue to cache", new CacheItemPolicy());
